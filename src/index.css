@@ -15,16 +15,32 @@
   outline: 0;
 }
 
+body {
+  background-color: #eeeeee;
+}
+
 .nav_slim_top {
   width: 100%;
   height: 50px;
-  background-color: #ffd4a9;
+  background-color: #262626;
   position: fixed;
   transition: all 0.3s;
 }
 
 .nav_slim_top_title {
+  color: #eeeeee;
   margin: 0 0 0 20px !important;
+}
+
+.nav_title {
+  color: #eeeeee;
+  margin: 10px 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav_sub_title {
+  color: #eeeeee;
 }
 
 .nav_row {
@@ -33,6 +49,7 @@
 }
 
 .nav-link {
+  color: #eeeeee;
   transition: all 0.3s;
 }
 
@@ -43,19 +60,13 @@
 }
 
 .navbar {
-  background-color: #ffd4a9;
+  background-color: #262626;
   transition: all 0.2s;
   text-align: center;
 }
 
 .nav_main a {
   text-align: center;
-}
-
-.nav_title {
-  margin: 10px 0;
-  font-size: 1.5rem;
-  font-weight: bold;
 }
 
 .my_photo {

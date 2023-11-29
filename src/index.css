@@ -72,7 +72,7 @@ body {
 .my_photo {
   margin: 20px 0;
   width: 100px;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 .content {
@@ -83,6 +83,10 @@ body {
   margin: 10px !important;
   padding: 50px;
   border-bottom: 2px solid rgba(110, 110, 110, 0.418);
+}
+.content_row_noborder {
+  margin: 10px !important;
+  padding: 0 50px;
 }
 
 .main_title {
@@ -152,6 +156,11 @@ body {
 }
 
 .project_textWrap {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.my_strength_textWrap {
   margin-top: 20px;
   margin-bottom: 20px;
 }

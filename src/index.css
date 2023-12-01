@@ -203,7 +203,25 @@ body {
   margin: 10px;
 }
 
+.portfolio_text_img_logo {
+  max-height: 50px !important;
+  max-width: 150px !important;
+  margin: 10px;
+}
+
 .img_contact {
   margin: 5px !important;
   height: 70px !important;
+}
+
+@media (600px <= width <= 1000px) {
+  .portfolio_text_img_logo {
+    max-width: 100px !important;
+  }
+}
+
+@media (width < 600px) {
+  .portfolio_text_img_logo {
+    max-width: 80px !important;
+  }
 }

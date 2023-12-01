@@ -199,6 +199,7 @@ body {
 
 .portfolio_text_img {
   max-height: 50px !important;
+  max-width: 150px !important;
   margin: 10px;
 }
 

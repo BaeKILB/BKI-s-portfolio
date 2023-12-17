@@ -134,6 +134,7 @@ body {
 .img_skills {
   margin: 5px !important;
   height: 70px !important;
+  border-radius: 5px;
 }
 
 .project_imgWrap {

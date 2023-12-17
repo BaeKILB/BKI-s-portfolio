@@ -38,16 +38,23 @@
             <div class="navbar-collapse mt-4">
               <div class="navbar-vertical-content">
                 <ul class="flex-column navbar-nav nav_main">
-                  <li class="nav-item">
+                  <!-- <li class="nav-item">
                     <a class="cursor-pointer nav-link" data-nav-section="home"
                       >인사말</a
                     >
-                  </li>
+                  </li> -->
                   <li class="nav-item">
                     <a
                       class="cursor-pointer nav-link"
                       data-nav-section="about_me"
                       >소개</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="cursor-pointer nav-link"
+                      data-nav-section="my_strength"
+                      >저의 장점</a
                     >
                   </li>
                   <li class="nav-item">
@@ -67,13 +74,6 @@
                       class="cursor-pointer nav-link"
                       data-nav-section="project_review"
                       >프로젝트 완료 후 느낀점</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="cursor-pointer nav-link"
-                      data-nav-section="my_strength"
-                      >저의 장점</a
                     >
                   </li>
                   <li class="nav-item">
@@ -108,14 +108,14 @@
               />
             </div>
           </div>
-          <main class="row content_row" id="home" tabindex="0">
+          <main class="row content_row" id="about_me" tabindex="0">
             <div class="col-md-8 col-md-pull-3 col-sm-9 col-xs-9">
               <h1 class="main_title">안녕하세요 !</h1>
               <h2>웹 개발자</h2>
               <h1><span class="point">배경인</span> 입니다 !</h1>
             </div>
           </main>
-          <article class="row content_row" id="about_me" tabindex="1">
+          <article class="row content_row">
             <div class="col-12">
               <h4 class="sub_title">배경인에 대한 소개</h4>
               <p>
@@ -154,6 +154,67 @@
                 <span class="point">두 개의 팀 프로젝트</span>를 성공적으로 진행
                 후 <span class="point">개인 프로젝트</span>까지 진행하였습니다
               </div>
+            </div>
+          </article>
+          <article class="row content_row">
+            <div class="col-12">
+              <h4 class="sub_title">저의 장점</h4>
+            </div>
+            <div
+              class="col-12 my_strength_textWrap"
+              id="my_strength"
+              tabindex="1"
+            >
+              저의 전 직장에서의 경험과 프로젝트 시 경험을 돌아봤을 때
+              <br />
+              저의 장점은
+              <span class="point"
+                >정보를 얻고 그것을 적재적소에 사용하는 능력</span
+              >이 장점이라고 생각합니다
+              <br />
+              <br />
+              전 직장에서 프로젝트 중 회사 사정 때문에 주요 인원들이 회사를
+              나가서
+              <br />
+              혼자서만 장기간 외국 출장을 간 적이 있습니다
+              <br />
+              장비 작업 때 SW / HW 문제점이 발생하면 둘 다
+              <span class="point">혼자서 해결해야 할 상황</span> 이었는데
+              <br />
+              모르는 문제가 발생 시 회사에 인원이 없어 물어볼 사람도 없었기에
+              <br />
+              최대한 직접 장비를 돌려서 얻은 정보와 인터넷과 남은 인원에게
+              정보를 수집해
+              <br />
+              <span class="point">
+                그 정보를 활용해서 문제를 해결하고 장비를 개선 한 경험</span
+              >이 있습니다
+              <br />
+              <br />
+              또한 팀 프로젝트 하는 중에 다른 팀원이 저에게 문제점이나 구현이
+              막히는 부분을 물어보면
+              <br />
+              <span class="point"
+                >모르는 부분이라도 빠르게 해결법을 찾아서 해결 후 공유한
+                경험</span
+              >이 있습니다
+              <br />
+              <br />
+
+              그런 경험을 보았을 때 저는 무언가 막히거나 문제점이 생겼을때
+              <br />
+              제가 <span class="point">모르는 부분</span>이라도
+              <span class="point"
+                >정보를 찾은 뒤 그 정보를 이용해 적재적소에 사용하는 능력</span
+              >이 있다고 생각합니다
+              <br />
+              <br />
+
+              또한
+              <span class="point"
+                >이렇게 해서 문제점을 해결했을 때 큰 성취감</span
+              >을 느낍니다.
+              <br />
             </div>
           </article>
           <article class="row content_row" id="skills" tabindex="2">
@@ -297,25 +358,40 @@
               </div>
 
               <div class="col-12 project_textWrap">
-                첫 번째 팀 프로젝트 <span class="point">Gabolcar</span>(가볼카)
-                입니다
+                <p><span class="point_l">주제</span></p>
+                <p>
+                  <span class="point">자동차 렌트</span> 사이트를 구현한
+                  프로젝트 입니다
+                </p>
+                <p>
+                  <span class="point_l">개발환경</span>
+                </p>
+                <span class="point">프론트엔드</span>
                 <br />
-                <span class="point">자동차 렌트</span> 사이트를 구현한 프로젝트
-                입니다
+                html , css , js , css , bootstrap
+                <br />
+                <span class="point">백엔드</span>
+                <br />
+                java , Spring
+                <br />
+                <span class="point">DB</span>
+                <br />
+                mysql , mybatis
                 <br />
                 <br />
-                해당 프로젝트에서 제가 맡은 부분으로
+                <p><span class="point_l">역할</span></p>
+                <span class="point">프론트엔드</span>
                 <br />
-                <span class="point">프론트엔드</span> 에서는
+                매인 페이지 , 렌트 차량 검색 옵션 선택기능 , 렌트 차량 검색 결과
+                창 제작
                 <br />
-                <span class="point">매인 페이지</span>와
+                <span class="point">백엔드</span>
                 <br />
-                <span class="point">렌트 차량 검색 옵션 선택기능</span>,
-                <span class="point">렌트 차량 검색 결과 창</span> 을 맡았으며
+                차량 검색 기능 구현
                 <br />
                 <br />
-                <span class="point">백엔드</span> 에서는 렌트
-                <span class="point">차량 검색 기능</span>을 맡아서 했습니다
+                <p><span class="point_l">프로젝트 기간</span></p>
+                2023.05.17~2023.06.30
               </div>
               <div class="col-12 project_imgWrap">
                 <h5 class="project_img_title">팀 프로젝트 2 Shoecream</h5>
@@ -329,54 +405,40 @@
               </div>
 
               <div class="col-12 project_textWrap">
-                두 번째 팀 프로젝트 <span class="point">Shoecream</span>(슈크림)
-                입니다
-                <br />
+                <p><span class="point_l">주제</span></p>
                 <span class="point">의류 중고 리셀 사이트</span>에서 신발을
                 주종목으로 한 사이트를 구현한 프로젝트 입니다
                 <br />
                 <br />
-                해당 프로젝트에서 제가 맡은 부분으로는
-                <span class="point">프론트엔드</span> 에선
+                <p>
+                  <span class="point_l">개발환경</span>
+                </p>
+                <span class="point">프론트엔드</span>
                 <br />
-                <span class="point">리셀 키워드 검색 화면</span> ,
-                <span class="point">중고거래 상품 리스트 페이지</span> ,
-                <span class="point">채팅 페이지</span> ,
-                <span class="point">결제 화면</span>의
+                html , css , js , css , bootstrap
                 <br />
+                <span class="point">백엔드</span>
                 <br />
-                <span class="point">백엔드</span> 에서는
+                java , Spring
                 <br />
-                <span class="point">검색 결과 동작</span>과
-                <span class="point">채팅 기능</span> ,
-                <span class="point">결제 기능</span>을 구현 하였습니다
+                <span class="point">DB</span>
                 <br />
-                <br />
-              </div>
-
-              <div class="skills_textWrap mt-4">
-                <span class="point">첫 번째 두 번째 팀 프로젝트</span> 에서
-                <span class="point">사용된 언어, 프레임워크</span> 로는
-                <br />
-                <span class="point"> 프론트엔드</span> 에선
-                <br />
-                <span class="point">html </span>
-                <span class="point">css </span>
-                <span class="point">js </span>
-                <br />
-                그리고 css 프레임워크인
-                <span class="point">bootstrap</span>으로 작업했으며
+                mysql , mybatis
                 <br />
                 <br />
-                <span class="point">백엔드</span> 에서는
-                <span class="point">java</span> 과
-                <span class="point">Spring</span>으로 작업 하였습니다
+                <p><span class="point_l">역할</span></p>
+                <span class="point">프론트엔드</span>
+                <br />
+                리셀 키워드 검색 화면 , 중고거래 상품 리스트 페이지 , 채팅
+                페이지 , 결제 화면 제작
+                <br />
+                <span class="point">백엔드</span>
+                <br />
+                검색 결과 동작 , 채팅 기능 , 결제 기능 구현
                 <br />
                 <br />
-                <span class="point">DB</span>의 경우
-                <span class="point">mysql</span> 과 관련 프레임워크인
-                <span class="point">mybatis</span>를 이용하였습니다
-                <br />
+                <p><span class="point_l">프로젝트 기간</span></p>
+                2023.07.12~2023.08.16
               </div>
 
               <div class="col-12 mt-5">
@@ -393,165 +455,167 @@
                 </div>
               </div>
               <div class="col-12 project_textWrap">
-                개인 프로젝트 <span class="point">Vreads</span>(브레드) 입니다
-                <br />
+                <p>
+                  <span class="point_l">주제</span>
+                </p>
                 <span class="point">블로그</span>와
                 <span class="point">쓰레드(threads)</span> 에서 아이디어를 얻어
                 진행하게 된 프로젝트 입니다
-              </div>
-              <div class="col-12 project_textWrap">
-                <span class="point">개인 프로젝트</span> 에서 사용한
-                <span class="point">사용된 언어, 프레임워크</span> 로는
-                <span class="point">프론트엔드</span> 에선
-                <br />
-                <span class="point">react</span>와
-                <span class="point">typescript</span>를 사용했으며 빌드를 위해
-                <span class="point">node</span>와
-                <span class="point">yarn</span>을 사용하였습니다
                 <br />
                 <br />
-                <span class="point">백엔드</span> 에서는
-                <span class="point">java</span> 과
-                <span class="point">Spring</span> 로 작업 하였습니다
+                <p>
+                  <span class="point_l">개발환경</span>
+                </p>
+                <span class="point">프론트엔드</span>
+                <br />
+                react , typescript , node , yarn
+                <br />
+                <span class="point">백엔드</span>
+                <br />
+                java , Spring
+                <br />
+                <span class="point">DB</span>
+                <br />
+                mysql , mybatis
+                <br />
+                <span class="point">기타</span>
+                <br />
+                jwt 를 이용한 토큰을 활용하여 로그인과 인증에 사용
                 <br />
                 <br />
-                <span class="point">DB</span>의 경우
-                <span class="point">mysql</span>과 관련 프레임워크 인
-                <span class="point">mybatis</span>를 이용하였습니다
-
-                <br />
-                <br />
-                백엔드에서 사용된 언어 프레임워크의 경우 위의 두 프로젝트와
-                같지만
-                <span class="point">위 두 개의 팀 프로젝트와 차이점</span>으로는
-                <br />
-                두 팀 프로젝트에서는 Spring 프레임워크로 만든 톰캣 서버 하나로
-                콘텐츠 전달, db 작업등 WAS 서버가 하는 모든 역할을 다 했지만
-                <br />
-                해당 프로젝트에서는 Spring 프레임워크로 만든 톰캣 서버를
-                <span class="point">API 서버</span>로 따로 분리시켜 활용
-                하였습니다
-                <br />
-                동시에 <span class="point">로그인과 인증</span> 방식으로
-                <span class="point">jwt 를 이용한 토큰</span>방식을
-                활용하였습니다
+                <p><span class="point_l">프로젝트 기간</span></p>
+                2023.10.14~2023.11.14
               </div>
             </div>
             <!-- row 끝 -->
           </article>
-          <article class="row content_row" id="project_review" tabindex="4">
-            <div class="col-12">
+          <article class="row content_row">
+            <div class="col-12" id="project_review" tabindex="4">
               <h4 class="sub_title">프로젝트 완료 후 느낀점</h4>
             </div>
-
             <div class="col-12 project_textWrap">
-              팀 프로젝트와 개인 프로젝트를 진행한 후
+              <span class="point_l">1차 2차 팀 프로젝트 진행 시 느낀점</span
+              >으로는
               <br />
-              가장 처음으로 느꼈고 직접 와 닿은 것은
-              <span class="point">팀원의 유무에 따른 차이점</span> 입니다
+              <br />
+              <span class="point">깃(git)의 중요성</span>입니다
+              <br />
+              <br />
+              지금까지 개발하면서 깃을 알고는 있었지만 제대로 활용을 하지
+              않았었고
+              <br />
+              심지어 이전 회사에서도 깃을 제대로 안 쓰는 기업이라 압축,다운로드
+              받으며 주먹구구식으로 진행했었는데
+              <br />
+              이번에 깃을 제대로 활용하면서 그 중요성을 확실히 느낄 수
+              있었습니다
+              <br />
+              <br />
+              <span class="point">버전 관리가 쉬워</span> 현재 버전에 문제가
+              생길시 이전 버전을 쉽게 확인하고 돌아갈 수 있었으며
+              <br />
+              특히 <span class="point">팀원들 간의 협업과 코드 공유</span>가
+              너무 편했습니다
+              <br />
+              물론 중간에 병합시 충돌이 나는 문제들 때문에 난감했지만
+              <br />
+              점차 사용해 가며 서로 충돌 날 것 같은 부분은 공유해 가며 숙달되니
+              괜찮았습니다
+              <br />
+              <br />
+              깃을 본격적으로 사용해보니 그전 깃을 활용 안 했던 게 후회될
+              정도였습니다
+              <br />
+              그래서 다음 프로젝트 부터
+              <span class="point">꼭 깃을 활용하고 사용하고 있습니다</span>
+              <br />
+              <br />
+              <br />
+              <span class="point_l">개인프로젝트 진행시 느낀점</span>으로는
+              <br />
+              <br />
+
+              <span class="point">WAS 서버와 API 서버 의 개발시 차이</span>
+              입니다
+              <br />
+              <br />
+
+              두 팀 프로젝트에서는 Spring 프레임워크로 만든 톰캣 서버 하나로
+              콘텐츠 전달, db 작업등
+              <br />
+              WAS 서버가 하는 모든 역할을 다 했지만
+              <br />
+              <br />
+
+              개인프로젝트를 수행할때에는 윗 프로젝트들과 다르게
+              <br />
+              <span class="point">프론트엔드</span>쪽은
+              <span class="point"
+                >웹서버(firebase)를 통해 따로 전달 및 호스팅</span
+              >을 하였고
+              <br />
+              <span class="point">백엔드</span>쪽은
+              <span class="point">API 서버</span>로서의 역할만 하도록
+              만들었습니다
+              <br />
+              <br />
+
+              프로젝트 진행하면서 겪은 일 중 하나는
+              <br />
+              해당 프로젝트에서는 2차 팀 프로젝트와 같이
+              <span class="point">Spring security</span>를 이용해 보안을
+              구성하려 했는데
+              <br />
+              API 서버로써 활용해야 하기 때문에 2차 팀 프로젝트와 같이
+              <span class="point">세션을 이용 못 하는 상황</span>이었습니다
+              <br />
+              <br />
+              그때 문득 생각난 게 2차 프로젝트에서 사용한 금융결제원 API 였고
+              <br />
+              살펴보니 토큰을 활용하는 방식을 사용하는 것을 확인
+              <br />
+              <span class="point">API서버로 개발</span>시 인증은
+              <span class="point">jwt 를 이용하여 토큰 을 사용하는 방식</span
+              >으로 해야 된다는 것을 깨달았습니다
+              <br />
+              <br />
+
+              그러면서 세부적인 세팅이나 코드도 많이 달라지는 것을 보며
+              <br />
+              WAS 서버로 개발할 때와 API 서버로 개발할 때와의 차이를 알게
+              되었습니다
+              <br />
+              <br />
+              <br />
+              <span class="point_l"
+                >팀 프로젝트와 개인 프로젝트를 진행한 후 느낀점</span
+              >은
+              <br />
+              <br />
+
+              <span class="point">팀원의 유무에 따른 마인드의 차이점</span>
+              입니다
+
               <br />
               <br />
               프로젝트를 같이 하는 팀원이 있을 때는 프로젝트 진행 시 막혔을 때나
               프로젝트 방향성의 의문점이 생겼을 때
               <br />
-              따로 회의시간을 잡아 이야기를 나누거나 시간 있는
-              <span class="point">팀원과 대화</span>를 나누거나 하는데
+              따로 회의시간을 잡아 이야기를 나누거나 시간 있는 팀원과 대화를
+              나누거나 하는데
               <br />
               개인 프로젝트시 에는 그렇게 할 수 없어
               <br />
-              위의 상황이 되었을 때
-              <span class="point">혼자 고민하는 시간이 필요해</span>
+              위의 상황이 되었을 때 혼자 고민하는 시간이 필요해
               <br />
-              <span class="point">효율이 떨어지는</span>
-              것을 느꼈습니다
-              <br />
-              <br />
-              두번째는 팀 프로젝트 시
-              <span class="point">정보 공유의 중요성</span> 입니다
-              <br />
-              각자 코드를 써도 결국 하나로 합쳐서 동작이 되게 해야 되는데
-              <br />
-              간혹 공통으로 써야 할 클래스나 메서드 등 해당 부분을 만들거나
-              건들다가
-              <br />
-              같은 동작을 하는 메서드가 두개 가 있다든지 두 팀원이 같은 클래스,
-              메서드를 수정하다 깃으로 합칠 때 충돌이 난다든지
-              <br />
-              하는 문제들이 있었습니다 해당 문제가 있을시 제가 조정하거나 합치는
-              것을 도와주거나 했었습니다
-              <br />
-              <br />
-              그 중간에는 해당 팀원들도 저도 작업을 못하니 시간이 추가로 드는 건
-              덤이었습니다
-              <br />
-              <br />
-              현재 프로젝트에서 공통으로 사용하는 클래스, 변수들을 문서화 하는
-              방식 등으로
-              <br />
-              이러한 상황을 개선 할 수 있지 않았을까 생각합니다
-              <br />
+              효율이 떨어지는 것을 느꼈습니다
               <br />
             </div>
+            <!-- row 끝 -->
           </article>
-          <article class="row content_row" id="my_strength" tabindex="5">
-            <div class="col-12">
-              <h4 class="sub_title">저의 장점</h4>
-            </div>
-            <div class="col-12 my_strength_textWrap">
-              저의 전 직장에서의 경험과 프로젝트 시 경험을 돌아봤을 때
-              <br />
-              저의 장점은
-              <span class="point"
-                >정보를 얻고 그것을 적재적소에 사용하는 능력</span
-              >이 장점이라고 생각합니다
-              <br />
-              <br />
-              전 직장에서 프로젝트 중 회사 사정 때문에 주요 인원들이 회사를
-              나가서
-              <br />
-              혼자서만 장기간 외국 출장을 간 적이 있습니다
-              <br />
-              장비 작업 때 SW / HW 문제점이 발생하면 둘 다
-              <span class="point">혼자서 해결해야 할 상황</span> 이었는데
-              <br />
-              모르는 문제가 발생 시 회사에 인원이 없어 물어볼 사람도 없었기에
-              <br />
-              최대한 직접 장비를 돌려서 얻은 정보와 인터넷과 남은 인원에게
-              정보를 수집해
-              <br />
-              <span class="point">
-                그 정보를 활용해서 문제를 해결하고 장비를 개선 한 경험</span
-              >이 있습니다
-              <br />
-              <br />
-              또한 팀 프로젝트 하는 중에 다른 팀원이 저에게 문제점이나 구현이
-              막히는 부분을 물어보면
-              <br />
-              <span class="point"
-                >모르는 부분이라도 빠르게 해결법을 찾아서 해결 후 공유한
-                경험</span
-              >이 있습니다
-              <br />
-              <br />
 
-              그런 경험을 보았을 때 저는 무언가 막히거나 문제점이 생겼을때
-              <br />
-              제가 <span class="point">모르는 부분</span>이라도
-              <span class="point"
-                >정보를 찾은 뒤 그 정보를 이용해 적재적소에 사용하는 능력</span
-              >이 있다고 생각합니다
-              <br />
-              <br />
-
-              또한
-              <span class="point"
-                >이렇게 해서 문제점을 해결했을 때 큰 성취감</span
-              >을 느낍니다.
-              <br />
-            </div>
-          </article>
           <article class="row content_row">
-            <div class="col-12" id="career" tabindex="6">
+            <div class="col-12" id="career" tabindex="5">
               <h4 class="sub_title">경력사항 및 스팩</h4>
             </div>
             <div class="row">
@@ -593,6 +657,14 @@
                 <h5 class="career_text_title">정보처리산업기사</h5>
                 <span class="point_l">취득일</span> : 2017.11.24
               </div>
+              <div class="col-12 career_textWrap">
+                <h5 class="career_text_title">정보처리기능사</h5>
+                <span class="point_l">취득일</span> : 2016. 06
+              </div>
+              <div class="col-12 career_textWrap">
+                <h5 class="career_text_title">1종보통운전면허</h5>
+                <span class="point_l">취득일</span> : 2011. 07
+              </div>
               <div class="col-12 mt-4">
                 <h5>학력</h5>
               </div>
@@ -606,8 +678,11 @@
                 <span class="point">2018.02</span>
                 (2년제)
                 <br />
-                <span class="point_l">학점</span> :
-                <span class="point">3.5</span> (전체 학기 평균)
+                <span class="point_l">학점(1학년)</span> :
+                <span class="point">3</span>
+                <br />
+                <span class="point_l">학점(2학년)</span> :
+                <span class="point">4.1</span>
                 <br />
                 <span class="point_l">기타</span> : 2학년 1학기 우수 성적으로
                 다음 학기 <span class="point">전액 장학금</span>을 받음
@@ -632,7 +707,7 @@
             </div>
             <!-- row 끝 -->
           </article>
-          <article class="row content_row" id="my_url" tabindex="7">
+          <article class="row content_row" id="my_url" tabindex="6">
             <div class="col-12">
               <h4 class="sub_title">프로젝트 URL</h4>
             </div>
@@ -740,7 +815,7 @@
             </div>
             <!-- row 끝 -->
           </article>
-          <article class="row content_row" id="contact" tabindex="8">
+          <article class="row content_row" id="contact" tabindex="7">
             <div class="col-12">
               <h4 class="sub_title">연락처</h4>
               <div>
